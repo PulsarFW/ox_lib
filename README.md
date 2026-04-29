@@ -1,32 +1,37 @@
-# ox_lib
+<div align="center">
+  <img src="https://r2.fivemanage.com/GPYOH8Hq4GPyAY7czrgLe/pulsarbanner.png" alt="Pulsar Framework" width="100%">
 
-A FiveM library and resource implementing reusable modules, methods, and UI elements.
+# OX_LIB
+**Shared utility library for Pulsar Framework resources**
 
-![](https://img.shields.io/github/downloads/overextended/ox_lib/total?logo=github)
-![](https://img.shields.io/github/downloads/overextended/ox_lib/latest/total?logo=github)
-![](https://img.shields.io/github/contributors/overextended/ox_lib?logo=github)
-![](https://img.shields.io/github/v/release/overextended/ox_lib?logo=github)
+[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)]()
+[![FiveM](https://img.shields.io/badge/FiveM-F40552?style=flat-square)]()
 
-For guidelines to contributing to the project, and to see our Contributor License Agreement, see [CONTRIBUTING.md](./CONTRIBUTING.md)
+[Overview](#overview) • [Dependencies](#dependencies) • [License](#license)
+</div>
 
-For additional legal notices, refer to [NOTICE.md](./NOTICE.md).
+## Overview
 
+Core utility library providing shared modules for caching, callbacks, interfaces, locales, and more. Required by all Pulsar Framework resources. Pulsar Framework fork of [ox_lib](https://github.com/overextended/ox_lib) by Overextended.
 
-## 📚 Documentation
+## Dependencies
 
-https://overextended.dev/ox_lib
+- None — must be started before all other resources
 
-## 💾 Download
+## Credits
 
-https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+| | |
+|---|---|
+| **Original project** | [overextended/ox_lib](https://github.com/overextended/ox_lib) |
+| **Original authors** | [Overextended](https://github.com/overextended) |
 
-## 📦 npm package
+## License
 
-https://www.npmjs.com/package/@overextended/ox_lib
+GNU Lesser General Public License v3.0 — see [LICENSE](LICENSE) for details.
 
-## 🖥️ Lua Language Server
+<div align="center">
 
-- Install [Lua Language Server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) to ease development with annotations, type checking, diagnostics, and more.
-- Install [CfxLua IntelliSense](https://marketplace.visualstudio.com/items?itemName=overextended.cfxlua-vscode-cox) to add natives and cfxlua runtime declarations to LLS.
-- You can load ox_lib into your global development environment by modifying workspace/user settings "Lua.workspace.library" with the resource path.
-  - e.g. "c:/fxserver/resources/ox_lib"
+[![Pulsar Framework](https://img.shields.io/badge/Pulsar-Framework-7c3aed?style=flat-square)]()
+[![Built for FiveM](https://img.shields.io/badge/Built_for-FiveM-F40552?style=flat-square)]()
+
+</div>
